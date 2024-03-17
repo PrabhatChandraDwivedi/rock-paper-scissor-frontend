@@ -1,7 +1,3 @@
-import React from 'react'
+import { io } from "socket.io-client";
 
-export default function Socket() {
-  return (
-    <div>Socket</div>
-  )
-}
+export const socket = io("http://localhost:5000");
