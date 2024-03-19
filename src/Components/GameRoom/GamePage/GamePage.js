@@ -10,11 +10,7 @@ const { state } = useLocation();
   const { hasUserJoined,roomId } = state;
 
   useEffect(() => {
-    console.log("ubchcb")
     socket.on('start-game', (friendSocketId, mySocketId) => {
-      console.log("Hello1234")
-      console.log(mySocketId);
-      console.log(socket.id);
       if (socket.id === mySocketId && !userJoined) {
         setUserJoined(true);
         console.log('Your friend has joined the room. You can start the game now.');
