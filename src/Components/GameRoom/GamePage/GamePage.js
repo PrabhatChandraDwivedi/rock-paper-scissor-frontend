@@ -25,7 +25,6 @@ const { state } = useLocation();
   }, []);
 
 
-console.log(hasUserJoined);
   return (
     <div>
       {userJoined && <GamePageComponent roomId={roomId}/>}
