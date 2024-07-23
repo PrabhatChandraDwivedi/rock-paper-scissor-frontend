@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import WaitingRoom from '../WaitingPage/WaitingRoom'
+import WaitingRoom from '../WaitingRoom/WaitingRoom.js'
 import  io  from 'socket.io-client';
 import { socket } from '../../Socket/Socket';
 import { useLocation } from 'react-router-dom';

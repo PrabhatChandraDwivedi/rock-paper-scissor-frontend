@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import cat from "../../../Assets/Images/smart-cat.jpg";
-import fox from "../../../Assets/Images/smart-fox.jpg";
+import fox from "../../../Assets/Images/smart-fox.jpeg";
 import { socket } from "../../Socket/Socket";
 
 export default function GamePageComponent({ roomId }) {
