@@ -1,0 +1,50 @@
+/* Add this CSS to your main stylesheet or in a <style> tag */
+.floating-shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+    animation: float 10s infinite ease-in-out;
+  }
+  
+  .shape-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #FF6B6B;
+    top: 20%;
+    left: 10%;
+    animation-duration: 12s;
+  }
+  
+  .shape-2 {
+    width: 80px;
+    height: 80px;
+    background-color: #FFD93D;
+    top: 30%;
+    right: 15%;
+    animation-duration: 15s;
+  }
+  
+  .shape-3 {
+    width: 120px;
+    height: 120px;
+    background-color: #4ECDC4;
+    bottom: 20%;
+    left: 5%;
+    animation-duration: 18s;
+  }
+  
+  .shape-4 {
+    width: 90px;
+    height: 90px;
+    background-color: #6B46C1;
+    bottom: 15%;
+    right: 10%;
+    animation-duration: 20s;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(0px); }
+  }
+  
